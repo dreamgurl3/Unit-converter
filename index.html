@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <title>Unit Converter</title>
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Unit Converter</h1>
+
+    <div class="mainContainer">
+        <label for="category">Choose a category to convert: </label>
+        <select id="category" name="category">
+            <option value="">- Select -</option>
+            <option value="temperature">Temperature</option>
+            <option value="weight">Weight</option>
+        </select>
+
+        <label for="tempInput">Enter number here: </label>
+        <input type="text" id="tempInput" name="tempInput">
+
+        <label for="fromTemp">Convert from: </label>
+        <select id="fromTemp">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+
+        <label for="toTemp">Convert to: </label>
+        <select id="toTemp">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button id="convertTemp">Convert</button>
+
+        <h2 id="tempResultHere"></h2>
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

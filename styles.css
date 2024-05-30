@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 1rem;
+}
+
+.mainContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color: orange;
+}
